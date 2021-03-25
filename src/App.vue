@@ -1,9 +1,10 @@
 <template>
 
   <Hi name="Sourav" title="Das" age='20'/>
+  <For msg="Sourav"/>
 
   <!-- <Bn/> -->
-  <Sd lang="Rails and vue"/>
+  <!-- <Sd lang="Rails and vue"/> -->
 </template>
 
 <script>
@@ -11,6 +12,7 @@
 import Hi from './components/Hi'
 import Bn from './components/Bn'
 import Sd from './components/Sd'
+import For from './components/For'
 import './assets/st.css'
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
     Hi,
     Bn,
-    Sd
+    Sd,
+    For
   }
 }
 </script>

@@ -1,6 +1,7 @@
 <template lang="html">
     <h3> I am learning {{lang}}</h3>
-    <h2 v-if='show'>Show this</h2>
+    <h2 v-if='show'>Now you see me</h2>
+    <h2 v-else>Now you Not</h2>
     <button v-on:click='showhide'>Click to toggle</button>
     <h2>{{msg}}</h2>
     <button v-on:click='reverseName'>Click to revres</button>
@@ -20,7 +21,7 @@ export default {
      return(
      {
        show:true,
-       msg:"Hello world"
+       msg:"Madads"
      });
   },
   methods:
